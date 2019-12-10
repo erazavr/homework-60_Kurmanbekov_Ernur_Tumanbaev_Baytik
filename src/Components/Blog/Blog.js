@@ -29,8 +29,8 @@ class Blog extends Component {
     author = event => this.setState({author: event.target.value});
     message = event => this.setState({message: event.target.value});
     renderOnPage = ()=> {
-        return this.state.posts.map(post => (
-            <Post message={post.message} author={post.author}/>
+        return this.state.posts.map((post, index) => (
+            <Post key={index}  message={post.message} author={post.author}/>
         ))
     };
 
