@@ -24,7 +24,9 @@ class Blog extends Component {
         fetch (this.url, {
             method: 'post',
             body: data,
-        })
+        });
+
+
     };
     author = event => this.setState({author: event.target.value});
     message = event => this.setState({message: event.target.value});
