@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b912481-cb63-41a9-98e8-4f95ee7b8f81" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/Components/Blog/Blog.css" afterDir="false" />
+    <list default="true" id="8b912481-cb63-41a9-98e8-4f95ee7b8f81" name="Default Changelist" comment="Wrote methods: getPost, author, message, getMessages. Set interval in componentDidMount">
       <change afterPath="$PROJECT_DIR$/src/Components/Blog/Blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Blog/chat-pic.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Components/Post/Post.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Components/Post/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images (1).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +24,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,7 +50,7 @@
       <updated>1575712822941</updated>
       <workItem from="1575712824059" duration="1080000" />
       <workItem from="1575791697184" duration="81000" />
-      <workItem from="1575882535788" duration="12578000" />
+      <workItem from="1575882535788" duration="13076000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1575979017510</created>
@@ -68,7 +66,42 @@
       <option name="project" value="LOCAL" />
       <updated>1575979068277</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1575979106142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575979106142</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial commit">
+      <created>1575979143171</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575979143171</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Imported component Blog">
+      <created>1575979218135</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575979218135</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Wrote styles for Blog component">
+      <created>1575979283358</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575979283358</updated>
+    </task>
+    <task id="LOCAL-00007" summary="background">
+      <created>1575979319513</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575979319513</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,8 +121,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="Wrote main styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrote main styles" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Imported component Blog" />
+    <MESSAGE value="Wrote styles for Blog component" />
+    <MESSAGE value="background" />
+    <option name="LAST_COMMIT_MESSAGE" value="background" />
   </component>
 </project>
