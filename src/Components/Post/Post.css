@@ -1,0 +1,19 @@
+.Post {
+    background: #ccc;
+    margin: 10px 0 10px 10px;
+    width: 300px;
+    padding: 5px 0;
+}
+.author-post {
+    padding-left: 5px;
+}
+.author {
+    padding-left: 30px;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+span {
+    padding-left: 10px;
+    color: blue;
+}
